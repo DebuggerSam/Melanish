@@ -1,0 +1,241 @@
+body {
+  background-color: #030303;
+}
+
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #d6d0ce;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.head {
+  padding-top: 57px;
+  margin-bottom: 255px;
+}
+
+.head_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.head_nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.header__start__title {
+  text-align: center;
+  font-family: NymphaTrial-Regular;
+  font-weight: 500;
+  font-size: 220px;
+  line-height: 259px;
+  color: #fff;
+}
+
+.mainPhoto {
+  background: url("../img/Main-IMG.jpg") center no-repeat;
+  width: 1268px;
+  position: relative;
+  bottom: 268px;
+  z-index: -1;
+  height: 844px;
+  margin: 0 auto;
+}
+
+.about__info {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.list__info {
+  padding-right: 87px;
+}
+
+.info_authors {
+  text-align: center;
+  font-family: NymphaTrial-Regular;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.info_authors:hover {
+  color: pink;
+}
+
+.works {
+  padding-top: 230px;
+}
+
+.thrid_head {
+  color: #8d8d8d;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img_three {
+  position: relative;
+  display: flex;
+  bottom: 339px;
+}
+
+.four_works_text_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.four_work_text {
+  font-family: NymphaTrial-Regular;
+  transform: rotate(90deg);
+  color: #fff;
+  /* color: pink; */
+  font-weight: 700;
+  font-size: 82px;
+  position: relative;
+  bottom: 500px;
+  left: 420px;
+}
+
+.fwt_p {
+  margin-right: -60px;
+}
+
+.wrapper_one {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper_two {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-two {
+  position: relative;
+  bottom: 350px;
+}
+
+.wrapper_three {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-three {
+  position: relative;
+  bottom: 600px;
+  transition: 0.3s linear;
+}
+
+.slider_block {
+  padding-bottom: 400px;
+}
+
+.slider {
+  position: relative;
+  bottom: 800px;
+  max-height: 900px;
+}
+
+.slider_title {
+  position: relative;
+  bottom: -660px;
+}
+
+.slider_title:first-child {
+  color: #000 !important;
+  text-shadow: -0 -1px 1px #ffffff, 0 -1px 1px #ffffff, -0 1px 1px #ffffff,
+    0 1px 1px #ffffff, -1px -0 1px #ffffff, 1px -0 1px #ffffff,
+    -1px 0 1px #ffffff, 1px 0 1px #ffffff, -1px -1px 1px #ffffff,
+    1px -1px 1px #ffffff, -1px 1px 1px #ffffff, 1px 1px 1px #ffffff,
+    -1px -1px 1px #ffffff, 1px -1px 1px #ffffff, -1px 1px 1px #ffffff,
+    1px 1px 1px #ffffff;
+}
+
+.slider_title_inner {
+  color: #000 !important;
+  text-shadow: -0 -1px 1px #ffffff, 0 -1px 1px #ffffff, -0 1px 1px #ffffff,
+    0 1px 1px #ffffff, -1px -0 1px #ffffff, 1px -0 1px #ffffff,
+    -1px 0 1px #ffffff, 1px 0 1px #ffffff, -1px -1px 1px #ffffff,
+    1px -1px 1px #ffffff, -1px 1px 1px #ffffff, 1px 1px 1px #ffffff,
+    -1px -1px 1px #ffffff, 1px -1px 1px #ffffff, -1px 1px 1px #ffffff,
+    1px 1px 1px #ffffff;
+}
+
+.slider_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 748px;
+}
+
+.slider_adiptive_size_img {
+  width: 510px;
+}
+
+.next_project_title {
+  font-family: NymphaTrial-Regular;
+  font-weight: 400;
+  font-size: 154px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.next_project {
+}
+
+.next_project_items {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 511px;
+}
+
+.np-item-image1 {
+  position: relative;
+  left: 90px;
+  bottom: 42px;
+  z-index: -2;
+}
+.np-item-image2 {
+  z-index: -1;
+}
+.np-item-image3 {
+  position: relative;
+  right: 162px;
+  z-index: -3;
+  top: 36px;
+}
+
+.np_block {
+  max-height: 90px;
+}
+
+@font-face {
+  font-family: NymphaTrial-Regular;
+  src: url("../font/NymphaTrial-Regular.ttf");
+  /* src: url("../font/NymphaTrial-Regular.otf"); */
+  /* src: url("../font/NymphaTrial-Regular.woff"); */
+  /* src: url("../font/NymphaTrial-Regular.woff2"); */
+}
